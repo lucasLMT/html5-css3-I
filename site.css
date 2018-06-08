@@ -17,6 +17,10 @@ main h1 {
     font-size: 60px;
 }
 
+h1 {
+    text-transform: uppercase; /*Se colocarmos no html o nome maiúsculo os buscadores entendem como sigla*/
+}
+
 h2 {
     font-size: 30px;
 }
@@ -38,15 +42,17 @@ blockquote {
     margin: 20px 40px;
 }
 
-aside {
+.navegacao-site {
     background-color: #3C1D3D;
     color: #F2FFFC;
     text-align: center;
+    padding: 20px;
 }
 
-footer {
+#rodape-pagina {
     background-color: #000;
     color: #F2FFFC;
+    padding: 20px;
 }
 
 aside h1 {
@@ -57,6 +63,7 @@ aside h1 {
 aside a {
     color: inherit;
     font-family: "Open Sans Condensed", sans-serif;
+    text-transform: lowercase;
 }
    
 blockquote, aside, footer {
@@ -88,4 +95,42 @@ div.teste {
     border-left: 30px solid red;
     border-right: 30px solid red;
     width: 0;
+}
+
+.icones-redes-sociais li{
+    display: inline-block;
+}
+
+article {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.leia-mais {
+    font-size: 24px;
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    text-align: center;
+    background-color: #E6E7E8;
+}
+
+.icones-redes-sociais a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-indent: -99999px;
+}
+
+.github {
+    background-image: url("github.png"); /*Image replacement - imagens secundárias que não devem ser indexadas pelos buscadores não precisam estar no html*/
+}
+
+.twitter {
+    background-image: url("twitter.png");
+}
+
+.linkedin {
+    background-image: url("linkedin.png");
 }
