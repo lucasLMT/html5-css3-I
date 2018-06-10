@@ -134,3 +134,37 @@ article {
 .linkedin {
     background-image: url("linkedin.png");
 }
+
+.citacao-fiat {
+    float: right;
+}
+
+.citacao-petrobras {
+    float: left;
+}
+
+cite {
+    font-style: italic;
+    float: right;
+}
+
+h2 {
+    clear: both;
+}
+
+main {
+    float: left;
+    width: 85%;
+}
+
+.navegacao-site, .minha-foto {
+    float: right;
+    width: 15%;
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+#rodape-pagina {
+    clear: both;
+}
