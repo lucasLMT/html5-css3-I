@@ -14,12 +14,13 @@ h2,
 h1 {
     text-transform: uppercase; /*Se colocarmos no html o nome maiúsculo os buscadores entendem como sigla*/
     font-size: 3em;
+    text-shadow: 2px 2px #000;
 }
 
 .titulo-principal {
     text-align: center;
     background-color: #851944;
-    color: #FFF;
+    color: rgba(255, 255, 255, .5);
     padding: 2rem;
     border-bottom: .5rem solid #000;
 }
@@ -57,7 +58,7 @@ main p {
 }
 
 .rodape-pagina {
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.8);
     color: #F2FFFC;
     padding: 1em;
     clear: both;
