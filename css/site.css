@@ -58,7 +58,15 @@ main p {
 }
 
 .rodape-pagina {
-    background-color: rgba(0, 0, 0, 0.8);
+    /*background-color: rgba(0, 0, 0, 0.8);*/
+    background-image: radial-gradient(ellipse at bottom left, rgba(0, 0, 0, .8), 
+                                                              rgba(0, 0, 0, .8) 65%, 
+                                                              rgba(0, 0, 0, 1) 65%, 
+                                                              rgba(0, 0, 0, 1) 70%,
+                                                              transparent 70%,
+                                                              transparent);
+    background-size: 25% 100%;
+    background-repeat: no-repeat;                                                          
     color: #F2FFFC;
     padding: 1em;
     clear: both;
@@ -144,6 +152,18 @@ div.teste {
     border-left: 30px solid red;
     border-right: 30px solid red;
     width: 0;
+}
+
+main a:hover,
+main a:focus,
+footer a:hover,
+footer a:focus {
+    color: red;
+}
+
+.navegacao-site a:hover,
+.navegacao-site a:focus {
+    text-shadow: 0 0 2px pink;
 }
 
 /*
